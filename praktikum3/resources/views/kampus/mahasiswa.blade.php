@@ -9,15 +9,18 @@
 <body>
     <h1>Daftar Mahasiswa</h1>
     <ol>
-        <!-- <li> -->
-            <!-- Fahrul Sadikin -->
-        <!-- </li> -->
         <li>
-            <?php echo $mahasiswa01; ?>
+       <?php echo $mahasiswa01;?>
         </li>
-        <li>Khairul Khazil</li>
-        <li>Anisa Salwa</li>
-        <li>Sepkha Wulan Dari</li>
+        <li>
+            <?php echo $mahasiswa02;?>
+        </li>                                                                  
+        <li>
+            <?php echo $mahasiswa03;?>
+        </li>
+        <li>
+            <?php echo $mahasiswa04;?>
+        </li>
     </ol>
     <div>
         Copyright &copy <?php echo date("Y");?> Program Studi Teknik Informatika -PNL
