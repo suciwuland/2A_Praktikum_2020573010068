@@ -1,12 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
-
 class MahasiswaController extends Controller
 {
-    public function mhs(){
+    public function mahasiswa(){
     $arrMahasiswa=["Luhut Panjaitan","Jokowi","Vladimir Putin","Lisa Permata"];
     return view('mahasiswa')->with('mahasiswa',$arrMahasiswa);
     }
