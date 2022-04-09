@@ -40,7 +40,7 @@
                 <img src="https://source.unsplash.com/kfwPJieZVwI/350x250" 
                 class="img-thumbnail img-fluid">
             </div>
-            <div class="col-4">
+            <div class="col-4"  >
                 <img src="https://source.unsplash.com/8CqDvPuo_kI/350x250" 
                 class="img-thumbnail img-fluid">
             </div>
@@ -57,7 +57,7 @@
                 class="img-thumbnail img-fluid">
             </div>
         </div>
-</div>
+</div>  
 @endsection
 
 {{-- @include('layout.footer') --}}
