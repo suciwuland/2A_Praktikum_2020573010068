@@ -22,6 +22,6 @@ Route::get('/', function () {
 // Route::get('/mahasiswa', 'MahasiswaController@mahasiswa')->name('mahasiswa');
 
 Route::get('/mahasiswa','MahasiswaController@mahasiswa')->name('mahasiswa');
-Route::get('/mahasiswa','MahasiswaController@dosen')->name('dosen');
-Route::get('/mahasiswa','MahasiswaController@gallery')->name('gallery');
-Route::get('/mahasiswa','MahasiswaController@info')->name('info');
+Route::get('/dosen','MahasiswaController@dosen')->name('dosen');
+Route::get('/gallery','MahasiswaController@gallery')->name('gallery');
+Route::get('/info/{jurusan}/{prodi}','MahasiswaController@info')->name('info');
