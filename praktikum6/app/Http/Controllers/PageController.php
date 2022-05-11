@@ -8,6 +8,14 @@ namespace App\Http\Controllers;
     //         return "Data Mahasiswa";
     //     }
     // }
+    // class PageController extends Controller{
+    //     public function index(){
+    //         return view('welcome');
+    //     }
+    //     public function tampil(){
+    //         return "Data Mahasiswa";
+    //     }
+    // }
     class PageController extends Controller{
         public function index(){
             return view('welcome');
