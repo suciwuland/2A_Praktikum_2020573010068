@@ -30,7 +30,7 @@ class CategoriesCreditController extends Controller
         return view('account.categories_credit.index', compact('categories'));
     }
 
-    /**
+    /**.
      * @param Request $request
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
